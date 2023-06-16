@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://budget-app-ggml.onrender.com)
+- [Live Demo Link](https://budgetmanager.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +69,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:Nelitaa/Budget-App.git
+  git clone git@github.com:gealsanchez/budget_app.git
 ```
 
 ### Install
