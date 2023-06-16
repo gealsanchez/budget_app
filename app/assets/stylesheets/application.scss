@@ -1,10 +1,9 @@
 @font-face {
-  font-family: "proxima";
+  font-family: "Proxima";
   src: url("fonts/proxima.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 .navbar {
   background-color: #3778c2;
   padding: 5px;
@@ -95,57 +94,62 @@
   box-shadow: 0 0 6px 0 #3778c2;
 }
 
+h1{
+  font-weight: bold;
+}
+
 #img_icon0 {
-  background-image: url('/app/assets/images/icon1.svg');
+  background-image: url(./icon1.svg);
 }
 
 #img_icon1 {
-  background-image: url('/app/assets/images/icon2.svg');
+  background-image: url(./icon2.svg);
 }
 
 #img_icon2 {
-  background-image: url('/app/assets/images/icon3.svg');
+  background-image: url(./icon3.svg);
 }
 
 #img_icon3 {
-  background-image: url('/app/assets/images/icon4.svg');
+  background-image: url(./icon4.svg);
 }
 
 #img_icon4 {
-  background-image: url('/app/assets/images/icon5.svg');
+  background-image: url(./icon5.svg);
 }
 
 #img_icon5 {
-  background-image: url('/app/assets/images/icon6.svg');
+  background-image: url(./icon6.svg);
 }
 
 #img_icon6 {
-  background-image: url('/app/assets/images/icon7.svg');
+  background-image: url(./icon7.svg);
 }
 
 #img_icon7 {
-  background-image: url('/app/assets/images/icon8.svg');
+  background-image: url(./icon8.svg);
 }
 
 #img_icon8 {
-  background-image: url('/app/assets/images/icon9.svg');
+  background-image: url(./icon9.svg);
 }
 
 #img_icon9 {
-  background-image: url('/app/assets/images/icon10.svg');
+  background-image: url(./icon10.svg);
 }
 
 #img_icon10 {
-  background-image: url('/app/assets/images/icon11.svg');
+  background-image: url(./icon11.svg);
 }
 
 #img_icon11 {
-  background-image: url('/app/assets/images/icon12.svg');
+  background-image: url(./icon12.svg);
 }
 
 body {
-  font-family: "proxima", sans-serif;
+  font-family: "Proxima", sans-serif;
   color: #434b54;
+  font-weight: bold;
 
   main {
     height: 100vh;
