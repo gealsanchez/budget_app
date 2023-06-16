@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "proxima";
+  src: url("fonts/proxima.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: #3778c2;
+  padding: 5px;
+}
+
+.navbar-nav,
+.nav-link,
+.navbar-brand,
+.navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary {
+  background-color: #3778c2;
+}
+
+.btn-secondary {
+  background-color: #5fb523;
+  color: #fff;
+}
+
+.back {
+  margin-left: 50%;
+  margin-top: 5%;
+  border-radius: 50% !important;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none !important;
+  padding: 30px 30px !important;
+  -webkit-transition: background-color 1s, color 1s, -webkit-transform 0.5s;
+  transition: background-color 1s, transform 0.5s;
+}
+
+.amount {
+  color: #434b54;
+}
+
+.border-secondary {
+  border-color: #5fb523;
+  border-radius: 5px;
+}
+
+.link_btn {
+  text-align: center;
+  text-decoration: none;
+}
+
+.category_container {
+  width: 90%;
+}
+
+.bg_gray {
+  background-color: #f0efef;
+}
+
+.bg_white {
+  background-color: #fff;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.btn-h {
+  padding: 30px 0;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.fz-12 {
+  font-size: 12px;
+}
+
+.fz-14 {
+  font-size: 12px;
+  color: #5fb523;
+}
+
+.img_icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  -webkit-box-shadow: 0 0 6px 0 #3778c2;
+  box-shadow: 0 0 6px 0 #3778c2;
+}
+
+#img_icon0 {
+  background-image: asset-url("icon1.svg");
+}
+
+#img_icon1 {
+  background-image: asset-url("icon2.svg");
+}
+
+#img_icon2 {
+  background-image: asset-url("icon3.svg");
+}
+
+#img_icon3 {
+  background-image: asset-url("icon4.svg");
+}
+
+#img_icon4 {
+  background-image: asset-url("icon5.svg");
+}
+
+#img_icon5 {
+  background-image: asset-url("icon6.svg");
+}
+
+#img_icon6 {
+  background-image: asset-url("icon7.svg");
+}
+
+#img_icon7 {
+  background-image: asset-url("icon8.svg");
+}
+
+#img_icon8 {
+  background-image: asset-url("icon9.svg");
+}
+
+#img_icon9 {
+  background-image: asset-url("icon10.svg");
+}
+
+#img_icon10 {
+  background-image: asset-url("icon11.svg");
+}
+
+#img_icon11 {
+  background-image: asset-url("icon12.svg");
+}
+
+body {
+  font-family: "proxima", sans-serif;
+  color: #434b54;
+
+  main {
+    height: 100vh;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

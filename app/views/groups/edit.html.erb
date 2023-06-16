@@ -1,0 +1,12 @@
+<%= link_to "<", groups_path, class: "btn btn-primary m-2" %>
+<div class="d-flex flex-column align-items-center p-2">
+  <h1>Edit</h1>
+
+  <%= render "form", group: @group %>
+
+  <br>
+
+<div>
+  <%= link_to "Show", @group %> |
+  <%= link_to "Back", groups_path %>
+</div>
