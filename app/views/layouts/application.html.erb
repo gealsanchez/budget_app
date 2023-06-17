@@ -16,9 +16,11 @@
   </head>
 
   <body>
+
+    <% if current_user.present? %>
       <%= render "home/header" %>
+    <% end %>
     <%= yield %>
-    <br><br><br><br>
     <%= render "home/footer" %>
   </body>
 </html>
