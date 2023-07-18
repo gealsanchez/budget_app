@@ -1,0 +1,13 @@
+<%= link_to "<", groups_path, class: "btn btn-primary m-2" %>
+<p style="color: green"><%= notice %></p>
+<div class="d-flex flex-column align-items-center p-2">
+  <h1 >Transactions</h1>
+  <%= render @group %>
+ 
+  <div class="d-flex justify-content-center">
+    <%= link_to "Edit", edit_group_path(@group), class: "btn-secondary link_btn m-1 rounded" %>
+    <%= button_to "Add", movement_create_new_path(params[:id]), method: :get, class: "btn-secondary  border-0 m-1 rounded" %>
+
+    <%= button_to "Delete", @group, method: :delete, class: "btn-secondary  border-0 m-1 rounded" %>
+  </div>
+</div>

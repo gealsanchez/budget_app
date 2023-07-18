@@ -1,0 +1,13 @@
+<p style="color: green"><%= notice %></p>
+
+<div id="movements">
+
+  <% @movements.each do |movement| %>
+    <%= render movement %>
+    <p>
+      <%= link_to "Show", movement %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New", new_movement_path %>

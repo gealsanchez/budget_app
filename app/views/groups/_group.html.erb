@@ -1,0 +1,40 @@
+<% if params[:action] == 'index' %>
+  <div id="<%= dom_id group %>" class="d-flex justify-content-between align-items-center m-2  p-3 category_container bg_white full-width">
+<% else %>
+  <div id="<%= dom_id group %>" class="d-flex flex-column align-items-center m-2 p-3 full-width">
+<% end %>
+    <div>
+      <%= link_to group do%>
+        <div id="<%= group.icon %>" class="img_icon">
+        </div>
+      <% end %>
+    </div>
+    <p>
+      <%= "#{group.name} " %>
+    </p>
+    <p class="amount">
+      <%= "U$ #{group.total_amount_group}" %>
+    </p>
+
+
+  <% if params[:action] == 'show' %>
+    <table class="table table-striped mt-3">
+
+      <tbody>
+        <% @group.movements.order(created_at: :desc).each do |movement| %>
+          <tr>
+            <tr>
+              <td><%= movement.name %></td>
+            </tr>
+            <tr>
+              <td class="fz-12"><%= movement.created_at  %></td>
+            </tr>
+            <tr>
+              <td class="fz-14"><%= "Total Movement U$   #{movement.amount} "  %></td>
+            </tr>
+          </tr>
+        <% end %>
+      </tbody>
+      </table>
+  <% end %>
+</div>
