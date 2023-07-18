@@ -17,9 +17,25 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Budget_App] <a name="about-project"></a>
+# 📖 <a name="about-project">Budget_App</a>
 
 **[Budget_App]** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+
+![budget1](https://github.com/gealsanchez/budget_app/assets/94255143/a5a761d5-4561-418b-a03b-59b9dcb81afe)
+
+![budget2](https://github.com/gealsanchez/budget_app/assets/94255143/25d33ce2-54bb-4fd4-8263-a1415d3919b9)
+
+![budget3](https://github.com/gealsanchez/budget_app/assets/94255143/f27884b5-abe7-4233-8bc5-c0697e29ae00)
+
+![budget4](https://github.com/gealsanchez/budget_app/assets/94255143/91f8742b-eb5a-4469-abea-e1a068512309)
+
+![budget5](https://github.com/gealsanchez/budget_app/assets/94255143/f3ea9c59-8ec7-47be-930d-a5f77a591b8f)
+
+![budget6](https://github.com/gealsanchez/budget_app/assets/94255143/8fbb9225-b40b-42fb-8624-e9e37b3e221b)
+
+![budget7](https://github.com/gealsanchez/budget_app/assets/94255143/eac86c94-2d53-4386-b906-985b1922e420)
+
+![budget8](https://github.com/gealsanchez/budget_app/assets/94255143/c5759bf4-2407-44e0-b6a6-c465869dcb21)
 
 ## 🛠 Built With <a name="built-with"></a>
 
